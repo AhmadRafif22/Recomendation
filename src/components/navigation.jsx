@@ -2,65 +2,34 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-          </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
-        </div>
-
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
+    <nav id="menu" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div className="container px-5 ml-3">
+        <a className="navbar-brand" href="#features">
+          <h2 className="m-0">SISPK</h2>
+        </a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="navbar-text " id="navbarNav">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item mx-3">
+              <a className="nav-link fs-6" href="#features">HITUNG</a>
             </li>
-            <li>
-              <a href="#about" className="page-scroll">
-                About
-              </a>
+            <li className="nav-item  mx-3">
+              <a className="nav-link fs-6" href="#features">FITUR</a>
             </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                Services
-              </a>
+            <li className="nav-item  mx-3">
+              <a className="nav-link fs-6" href="#services">METODE</a>
             </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
+            <li className="nav-item  mx-3">
+              <a className="nav-link fs-6" href="#about">TENTANG KAMI</a>
             </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
+            <li className="nav-item  mx-3">
+              <a className="nav-link fs-6" href="#team">TEAM</a>
             </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contact
-              </a>
+            <li className="nav-item  mx-3">
+              <a className="nav-link fs-6" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
